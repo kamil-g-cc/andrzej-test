@@ -15,7 +15,7 @@ namespace QuestShop
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        // Initial
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
